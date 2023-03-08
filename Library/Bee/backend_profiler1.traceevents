@@ -1,0 +1,533 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678040373523714, "dur":1344, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040373525068, "dur":63, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678040373525146, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678040373525171, "dur":423, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678040373525720, "dur":921, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040373526641, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375996880, "dur":251, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997131, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997146, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997149, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997157, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997158, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997165, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997167, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997174, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997176, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997184, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997185, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997191, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997193, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997200, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997202, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997209, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997221, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040375997225, "dur":1462, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678040373525949, "dur":706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040373526658, "dur":2203, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040373528876, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678040373528882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040373529657, "dur":451, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678040373530114, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678040373530265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040373530415, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678040373533324, "dur":56888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678040373590217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040373590226, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1678040373590955, "dur":67589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1678040373658549, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040373658607, "dur":340922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1678040373999569, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678040373999650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374000011, "dur":79148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1678040374079196, "dur":35533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374114735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374114744, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374115736, "dur":21777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374137517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374137524, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374138390, "dur":23016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374161413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374161422, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374162303, "dur":29580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374191889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374191899, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374192805, "dur":24327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374217138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374217146, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374218140, "dur":80455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374298601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374298610, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374299570, "dur":24953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374324530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374324540, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374325633, "dur":46520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374372161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374372170, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374373894, "dur":58729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374432630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374432641, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374433777, "dur":43169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374476953, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374476962, "dur":225116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374702098, "dur":24003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374726105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374726111, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374726923, "dur":21984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374748914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374748924, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374749905, "dur":45330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374795241, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374795252, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374796668, "dur":28836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374825512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374825522, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374826780, "dur":42593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374869380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374869389, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374870427, "dur":29945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374900378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374900387, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374901388, "dur":27753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374929180, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374929192, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374930348, "dur":32713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374963069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374963078, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374964044, "dur":33352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374997481, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040374997495, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040374999414, "dur":45650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375045067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375045075, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375046071, "dur":67659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375113737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375113747, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375114756, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375115722, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375115731, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375116658, "dur":57731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375174396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375174405, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375175265, "dur":29252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375204523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375204532, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375205736, "dur":135665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375341407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375341416, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375342411, "dur":118236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375460655, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375460668, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375461937, "dur":193704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375655648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375655659, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678040375660805, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":1, "ts":1678040375660912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375661301, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":1, "ts":1678040375662096, "dur":23878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":1, "ts":1678040375685980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375686037, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":1, "ts":1678040375686865, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1678040375686965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375686972, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1678040375687740, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1678040375687756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375687775, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1678040375688813, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375688829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375688836, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375689757, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375689773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375689780, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375691256, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375691274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375691281, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375692176, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375692192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375692198, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375692966, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1678040375693070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375693077, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1678040375693830, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375693850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375693858, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375694733, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375694751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375694758, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375695600, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375695615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375695622, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678040375696606, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375696623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375696629, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678040375697654, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678040375697792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678040375697799, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1678040375698902, "dur":297976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040373526016, "dur":652, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040373526668, "dur":2203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040373528879, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678040373528960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040373530586, "dur":64950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1678040373595562, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1678040373595619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040373595630, "dur":55205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1678040373650858, "dur":1471096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375121960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040375122008, "dur":32159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375154188, "dur":32816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375187011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040375187020, "dur":4483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375191524, "dur":88917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375280447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040375280479, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375281685, "dur":206169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375487860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040375487870, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375490333, "dur":148710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375639049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040375639058, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375642644, "dur":58703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375701354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678040375701362, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678040375703092, "dur":293785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373526004, "dur":659, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373526664, "dur":2210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373528876, "dur":46813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678040373575696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373575776, "dur":24741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678040373600539, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678040373600591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373601032, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678040373602881, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678040373602940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373602964, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678040373604470, "dur":53404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678040373657880, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040373657892, "dur":341353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1678040373999267, "dur":171615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager.exe" }}
+,{ "pid":12345, "tid":3, "ts":1678040374170889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374170898, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager.exe" }}
+,{ "pid":12345, "tid":3, "ts":1678040374172634, "dur":30566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374203208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374203218, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374204278, "dur":63091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374267376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374267385, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374268360, "dur":151629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374419996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374420006, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374421919, "dur":27889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374449815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374449823, "dur":252176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374702031, "dur":38627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374740664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374740673, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374741719, "dur":20479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374762203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374762211, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374763116, "dur":23314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374786438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374786448, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374787487, "dur":41347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374828843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374828852, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374830264, "dur":23982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374854254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374854264, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374855290, "dur":24601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374879898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374879909, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374880976, "dur":29508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374910491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040374910500, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040374911486, "dur":163741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375075261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375075271, "dur":5683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375080972, "dur":237737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375318714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375318722, "dur":22133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375340895, "dur":108848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375449750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375449759, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375451083, "dur":48677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375499768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375499779, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375500815, "dur":1073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Quest.MainMenu.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375501894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375501905, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Quest.MainMenu.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375503416, "dur":28101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Quest.Login.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375531523, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375531534, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Quest.Login.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375532518, "dur":31001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Quest.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375563526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375563537, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Quest.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375566736, "dur":273688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375840431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678040375840440, "dur":26673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678040375867138, "dur":129751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040373526102, "dur":576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040373526678, "dur":2192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040373528876, "dur":77061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1678040373605943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040373606164, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1678040373606964, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1678040373607012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040373607020, "dur":44263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1678040373651310, "dur":1654311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375305627, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040375305636, "dur":35816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375341470, "dur":55576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375397053, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040375397063, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375398147, "dur":242678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375640831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040375640840, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375642920, "dur":350621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375993548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678040375993556, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678040375996841, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1678040375996844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040373526116, "dur":572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040373526688, "dur":2194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040373528883, "dur":48964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1678040373577854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040373577883, "dur":72133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1678040373650043, "dur":1150127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374800177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040374800430, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374802141, "dur":34114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374836261, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040374836272, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374837304, "dur":27123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374864467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040374864478, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374865490, "dur":86884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374952383, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040374952395, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040374953576, "dur":48791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375002374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375002384, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375003985, "dur":39983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375043974, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375043986, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375045063, "dur":99782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375144851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375144861, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375148616, "dur":1320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375149945, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375149971, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375150951, "dur":45062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375196020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375196028, "dur":10515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375206563, "dur":414876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375621446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375621455, "dur":5009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375626480, "dur":131775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375758261, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678040375758270, "dur":108255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678040375866548, "dur":130326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040373526177, "dur":519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040373526696, "dur":2225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040373528922, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1678040373528963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040373530603, "dur":57195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1678040373587824, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1678040373587871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040373587891, "dur":13792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1678040373601717, "dur":61371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678040373663094, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040373663105, "dur":336475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678040373999602, "dur":55166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374054773, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374054979, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374055829, "dur":21491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374077326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374077362, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374078162, "dur":22890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374101057, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374101091, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374101997, "dur":38507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374140510, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374140520, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374141467, "dur":117918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374259391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374259400, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374260326, "dur":44909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374305242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374305252, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374306518, "dur":40218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374346742, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374346751, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374347804, "dur":111545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374459356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374459365, "dur":243142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374702525, "dur":23262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374725793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374725802, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374726695, "dur":46505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374773206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374773216, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374774189, "dur":54816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374829009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374829016, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374830108, "dur":118248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374948363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374948374, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374949739, "dur":30857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374980603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040374980613, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040374983575, "dur":163118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375146700, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040375146710, "dur":7748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375154476, "dur":83931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375238415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040375238441, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375239914, "dur":120176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375360097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040375360107, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375361159, "dur":40397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375401566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040375401578, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375402731, "dur":306512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375709251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678040375709261, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678040375711957, "dur":284929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040373526226, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040373526704, "dur":2174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040373528879, "dur":130665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1678040373659549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040373659568, "dur":339669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1678040373999262, "dur":981527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1678040374980793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040374980799, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1678040374983137, "dur":56801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375039944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375039954, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375041130, "dur":113663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375154799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375154808, "dur":4311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375159139, "dur":1154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375160301, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375160314, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375161274, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375162226, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375162245, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375163120, "dur":26704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375189833, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375189845, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375190833, "dur":29026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375219866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375219876, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375221030, "dur":66508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375287544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375287553, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375288582, "dur":207416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375496005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375496013, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375497625, "dur":152176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375649807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375649815, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375650778, "dur":220318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375871103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678040375871111, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678040375872072, "dur":124836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040373526262, "dur":449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040373526712, "dur":2161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040373528876, "dur":79886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1678040373608767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040373608787, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1678040373609540, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1678040373609578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040373609585, "dur":28171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1678040373637781, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1678040373637835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040373637847, "dur":459553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1678040374097420, "dur":38505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374135930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374135939, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374137246, "dur":37267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374174527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374174591, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374175623, "dur":26636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374202266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374202276, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374203269, "dur":26239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374229515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374229523, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374230463, "dur":19390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374249860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374249871, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374250912, "dur":35596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374286515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374286525, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374287622, "dur":142227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374429855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374429864, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374431064, "dur":52978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374484049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374484059, "dur":218276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374702352, "dur":26034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374728392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374728401, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374729361, "dur":23723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374753090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374753099, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374754045, "dur":59560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374813612, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374813621, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374814923, "dur":29227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374844157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374844165, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374845112, "dur":30364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374875483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374875492, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374876517, "dur":38188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374914711, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374914720, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374917917, "dur":30688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374948610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040374948619, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040374949739, "dur":66622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375016367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375016378, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375017980, "dur":53179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375071166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375071175, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375072680, "dur":87679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375160362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375160368, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375161292, "dur":28827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375190125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375190134, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375191026, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375191908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375191918, "dur":13225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375205161, "dur":112860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375318027, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375318037, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375319978, "dur":105559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375425542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375425552, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375426523, "dur":238624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375665153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375665163, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678040375669187, "dur":23211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":8, "ts":1678040375692402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375692410, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":8, "ts":1678040375693143, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1678040375694177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375694185, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1678040375694986, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1678040375695026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375695031, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1678040375695604, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1678040375695617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375695622, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1678040375696625, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/sidji/QuestManagerBuild/QuestManager_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1678040375696640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678040375696643, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/sidji/QuestManagerBuild/QuestManager_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1678040375697645, "dur":299230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678040376000228, "dur":2432, "ph":"X", "name": "ProfilerWriteOutput" }
+,

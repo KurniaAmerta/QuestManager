@@ -1,0 +1,13 @@
+{
+"Date": "3/6/2023 2:18:49 AM",
+"UnityVersion": "2021.3.10f1",
+"com.unity.scriptablebuildpipeline": "1.20.1",
+"com.unity.addressables": "1.19.19",
+"traceEvents": [
+{"name": "Building Default Build Script", "ph": "X", "dur": 721541.6, "tid": 1, "ts": 4745, "pid": 1}
+,{"name": "ProcessAllGroups", "ph": "X", "dur": 554520.7, "tid": 1, "ts": 10433, "pid": 1}
+,{"name": "Generate Catalog", "ph": "X", "dur": 47630.3999999999, "tid": 1, "ts": 577480, "pid": 1}
+,{"name": "Generate link", "ph": "X", "dur": 95587.7, "tid": 1, "ts": 625116, "pid": 1}
+,{"name": "Generate Settings", "ph": "X", "dur": 2204.49999999994, "tid": 1, "ts": 720771, "pid": 1}
+]
+}
