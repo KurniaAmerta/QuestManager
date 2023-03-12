@@ -3,11 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuestItem : MonoBehaviour
+namespace Quest.MainMenu
 {
-    [SerializeField] Text _questName;
+    public class QuestItem : MonoBehaviour
+    {
+        [SerializeField] Text _questName;
+        ScriptableQuest _questData;
 
-    public void Setup(string name) {
-        _questName.text = name;
+        public void Setup(string name, ScriptableQuest data)
+        {
+            _questName.text = name;
+            _questData = data;
+        }
+
+        public void ShowQuest() {
+            MainMenuManager.instance.ShowDetail(_questData);
+        }
     }
 }
