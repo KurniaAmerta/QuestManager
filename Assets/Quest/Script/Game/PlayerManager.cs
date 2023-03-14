@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+namespace Quest.Game
 {
-    public float speed = 10.0f;
-
-    float translationX, translationZ;
-
-    void Update()
+    public class PlayerManager : MonoBehaviour
     {
-        translationZ = Input.GetAxis("Vertical") * speed;
-        translationX = Input.GetAxis("Horizontal") * speed;
+        public float speed = 10.0f;
 
-        translationZ *= Time.deltaTime;
-        translationX *= Time.deltaTime;
+        float translationX, translationZ;
 
-        transform.Translate(translationX, 0, translationZ);
+        void Update()
+        {
+            translationZ = Input.GetAxis("Vertical") * speed;
+            translationX = Input.GetAxis("Horizontal") * speed;
+
+            translationZ *= Time.deltaTime;
+            translationX *= Time.deltaTime;
+
+            transform.Translate(translationX, 0, translationZ);
+        }
     }
 }

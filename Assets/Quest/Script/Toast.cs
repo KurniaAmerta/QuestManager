@@ -7,7 +7,7 @@ namespace Quest
 {
     public class Toast : MonoBehaviour
     {
-        public static Toast Ins { get; set; }
+        public static Toast instance { get; set; }
 
         [SerializeField] Text messageTxt;
 
@@ -18,7 +18,7 @@ namespace Quest
         private void Awake()
         {
             DontDestroyOnLoad(this);
-            Ins = this;
+            instance = this;
         }
 
         private void Update()

@@ -54,7 +54,7 @@ namespace Quest.Login
                     },
                     response =>
                     {
-                        PlayerData.Ins.ChangeData(new PlayerDataDetail { 
+                        PlayerData.instance.ChangeData(new PlayerDataDetail { 
                             playfabId = response.PlayFabId,
                             username = response.Username
                         });
@@ -62,13 +62,13 @@ namespace Quest.Login
                     },
                     error =>
                     {
-                        Toast.Ins.ShowToast(error.ErrorMessage, 1.5f);
+                        Toast.instance.ShowToast(error.ErrorMessage, 1.5f);
                     }
                 );
             }
             else
             {
-                Toast.Ins.ShowToast("please fill all fields", 1.5f);
+                Toast.instance.ShowToast("please fill all fields", 1.5f);
             }
         }
 
@@ -84,7 +84,7 @@ namespace Quest.Login
                     },
                     response =>
                     {
-                        PlayerData.Ins.ChangeData(new PlayerDataDetail
+                        PlayerData.instance.ChangeData(new PlayerDataDetail
                         {
                             playfabId = response.PlayFabId,
                             username = usernameLoginInp.text
@@ -93,13 +93,13 @@ namespace Quest.Login
                     },
                     error =>
                     {
-                        Toast.Ins.ShowToast(error.ErrorMessage, 1.5f);
+                        Toast.instance.ShowToast(error.ErrorMessage, 1.5f);
                     }
                 );
             }
             else
             {
-                Toast.Ins.ShowToast("please fill all fields", 1.5f);
+                Toast.instance.ShowToast("please fill all fields", 1.5f);
             }
         }
     }

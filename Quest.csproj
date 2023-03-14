@@ -57,19 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Quest\Script\PlayerData.cs" />
-    <Compile Include="Assets\Quest\Script\ScriptableQuest.cs" />
-    <Compile Include="Assets\Quest\Script\ScenePath.cs" />
-    <Compile Include="Assets\Quest\Script\Toast.cs" />
-    <Compile Include="Assets\Quest\Script\ScriptableTaskQuest.cs" />
-    <Compile Include="Assets\Quest\Script\ScriptableQuestMain.cs" />
-    <Compile Include="Assets\Quest\Script\ScriptableQuestSide.cs" />
-    <Compile Include="Assets\Quest\Script\ScriptableTaskQuestBool.cs" />
-    <Compile Include="Assets\Quest\Script\ScriptableTaskQuestInt.cs" />
-    <Compile Include="Assets\Quest\Script\Game\PlayerManager.cs" />
-    <Compile Include="Assets\Quest\Script\QuestComponent.cs" />
     <Compile Include="Assets\Quest\Script\QuestManager.cs" />
-    <Compile Include="Assets\Quest\Script\QuestInfoDetail.cs" />
-    <Compile Include="Assets\Quest\Script\QuestComponent1.cs" />
+    <Compile Include="Assets\Quest\Script\MainMenuManager.cs" />
+    <Compile Include="Assets\Quest\Script\ScenePath.cs" />
+    <Compile Include="Assets\Quest\Script\JsonHelper.cs" />
+    <Compile Include="Assets\Quest\Script\BuildingGoal.cs" />
+    <Compile Include="Assets\Quest\Script\QuestComponent.cs" />
+    <Compile Include="Assets\Quest\Script\QuestWindow.cs" />
+    <Compile Include="Assets\Quest\Script\EventManager.cs" />
+    <Compile Include="Assets\Quest\Script\Toast.cs" />
+    <Compile Include="Assets\Quest\Script\Quest.cs" />
+    <Compile Include="Assets\Quest\Script\GameEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Quest\Script\Quest.asmdef" />
