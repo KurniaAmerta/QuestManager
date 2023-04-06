@@ -56,7 +56,8 @@ namespace Quest.Login
                     {
                         PlayerData.instance.ChangeData(new PlayerDataDetail { 
                             playfabId = response.PlayFabId,
-                            username = response.Username
+                            username = response.Username,
+                            entityToken = response.EntityToken.EntityToken
                         });
                         SceneManager.LoadScene(ScenePath.MainMenu);
                     },
@@ -87,7 +88,8 @@ namespace Quest.Login
                         PlayerData.instance.ChangeData(new PlayerDataDetail
                         {
                             playfabId = response.PlayFabId,
-                            username = usernameLoginInp.text
+                            username = usernameLoginInp.text,
+                            entityToken = response.EntityToken.EntityToken
                         });
                         SceneManager.LoadScene(ScenePath.MainMenu);
                     },

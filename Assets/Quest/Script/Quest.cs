@@ -104,7 +104,7 @@ namespace Quest
                 _questCompleted.RemoveAllListeners();
 
                 if (PlayerData.instance.IsQuestReady) {
-                    PlayerData.instance.AddCoin(Reward._currency);
+                    PlayerData.instance.AddCoinTest(Reward._currency);
                 }
             }
         }

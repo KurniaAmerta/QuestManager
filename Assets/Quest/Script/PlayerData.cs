@@ -156,6 +156,25 @@ namespace Quest
                 Debug.LogError("error: " + error.ErrorMessage);
             });
         }
+
+        public void AddCoinTest(int _amount)
+        {
+            PlayFabCloudScriptAPI.ExecuteFunction(new PlayFab.CloudScriptModels.ExecuteFunctionRequest
+            {
+                FunctionName = "CurrencyCoin",
+                FunctionParameter = new Currency {  PlayFabId = _dataPlayer.playfabId, amount = _amount, type="CO" },
+                AuthenticationContext = new PlayFabAuthenticationContext
+                {
+                    EntityToken = _dataPlayer.entityToken
+                }
+            }, response =>
+            {
+                GetCurrency();
+            }, error =>
+            {
+                Debug.LogError("error: " + error.ErrorMessage);
+            });
+        }
     }
 }
 
@@ -164,6 +183,7 @@ namespace Quest
 public class PlayerDataDetail
 {
     public string playfabId;
+    public string entityToken;
     public string username;
     public int coin;
     public string questDate;
@@ -174,4 +194,18 @@ public class PlayerQuest
 {
     public string id;
     public int progress;
+}
+
+[System.Serializable]
+public class PlayFabIdRequest
+{
+    public string PlayFabId { get; set; }
+}
+
+[System.Serializable]
+public class Currency
+{
+    public string type { get; set; }
+    public int amount { get; set; }
+    public string PlayFabId { get; set; }
 }
